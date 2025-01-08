@@ -27,3 +27,7 @@ Starship's website: [here](https://starship.rs)
 ### Dunst
 
 <img src="assets/dunst.png">
+
+### Rofi
+
+<img src="assets/rofi.png">
