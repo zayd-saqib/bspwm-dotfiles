@@ -139,7 +139,7 @@ XF86AudioMute
 # start file manager
 super + e
 	thunar
-# start clipboard manager
-super + shift + v
-	diodon
-
+Print
+	scrot -s "Screenshot:%F_%H-%M-%S_$wx$h.png" -e 'mv $f ~/Pictures/Screenshots' && notify-send "Screenshot taken" "Screenshot succesfully taken"
+{_,shift + } Print
+	scrot "Screenshot:%F_%H-%M-%S_$wx$h.png" -e 'mv $f ~/Pictures/Screenshots' && notify-send "Fullscreen screenshot taken" "Screenshot successfully taken"
