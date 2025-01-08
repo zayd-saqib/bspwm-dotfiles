@@ -15,3 +15,5 @@ sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scr
 <img src="assets/bspwm.png">
 
 ### Neovim
+
+<img src="assets/neovim.png">
