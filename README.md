@@ -10,6 +10,6 @@ sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scr
 ## Screenshots:
 ### BSPWM
 
-<img src="bsp.png">
+<img src="assets/bsp.png">
 
-<img src="bspwm.png">
+<img src="assets/bspwm.png">
