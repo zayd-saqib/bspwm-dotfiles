@@ -10,7 +10,7 @@ sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scr
 You will also need starship, from Starship's download page on their website.\
 Starship's website: [here](https://starship.rs)
 ## Screenshots:
-### BSPWM and Polybar
+### BSPWM, Picom and Polybar
 
 <img src="assets/bsp.png">
 
