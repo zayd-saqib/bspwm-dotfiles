@@ -30,4 +30,4 @@ Starship's website: [here](https://starship.rs)
 
 ### Rofi
 
-<img src="assets/rofi.png">
+<img src="assets/rofi1.png">
