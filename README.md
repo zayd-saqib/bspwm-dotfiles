@@ -5,7 +5,7 @@ these are completely free to reproduce and use in your own repos.
 ## Packages
 Arch Linux:
 ```
-sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot
+sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot dunst
 ```
 ## Screenshots:
 ### BSPWM
