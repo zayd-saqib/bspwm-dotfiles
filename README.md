@@ -7,3 +7,9 @@ Arch Linux:
 ```
 sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot
 ```
+## Screenshots:
+### BSPWM
+
+<img src="bsp.png">
+
+<img src="bspwm.png">
