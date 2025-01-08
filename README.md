@@ -20,6 +20,6 @@ Starship's website: [here](https://starship.rs)
 
 <img src="assets/neovim.png">
 
-### Alacritty
+### Alacritty and Starship
 
 <img src="assets/alacritty.png">
