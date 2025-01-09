@@ -29,4 +29,4 @@ You also need rofi power menu for the power button on Polybar.
 
 ### Rofi
 
-<img src="assets/rofi1.png">
+<img src="assets/rofi.png">
