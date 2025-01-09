@@ -22,7 +22,7 @@ Starship's website: [here](https://starship.rs)
 
 ### Alacritty and Starship
 
-<img src="assets/alacritty.png">
+<img src="assets/alacritty1.png">
 
 ### Dunst
 
