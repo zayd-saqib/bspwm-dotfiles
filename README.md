@@ -21,7 +21,7 @@ You also need rofi power menu for the power button on Polybar.
 
 ### Alacritty and Starship
 
-<img src="assets/alacritty1.png">
+<img src="assets/alacritty.png">
 
 ### Dunst
 
