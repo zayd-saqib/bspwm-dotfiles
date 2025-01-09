@@ -5,7 +5,7 @@ these are completely free to reproduce and use in your own repos.
 ## Packages
 Arch Linux:
 ```
-sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot dunst zsh starship
+sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot dunst zsh starship zsh-syntac-highlighting zsh-history-substring-search
 ```
 You also need rofi power menu for the power button on Polybar.
 ## Screenshots:
