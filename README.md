@@ -21,7 +21,7 @@ You also need rofi power menu for the power button on Polybar.
 
 ### Alacritty, Starship and ZSH
 
-<img src="assets/alacritty.png">
+<img src="assets/aio.png">
 
 ### Dunst
 
