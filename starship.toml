@@ -1,32 +1,22 @@
-# get completions
 "$schema" = 'https://starship.rs/config-schema.json'
-#[┌───── ](normal #8ec07c)[$username](bold)[ in ]()[$directory](bold)[$git_branch]()
-#[└─ ](normal #8ec07c)[$character](bold)"""
-
-format = """
-[$directory](bold)[$character](bold)
-"""
 
 add_newline = true
 
-[directory]
-style = 'bold   yellow'
+# Use custom format:
+format="$directory$character"
 
+# Prompt symbols 
 [character]
-# ❭
-success_symbol = '[❭](bold yellow)'
-error_symbol = '[❭](bold yellow)'
+success_symbol = "[❭](bold green)"
+error_symbol = "[❭](bold green)"
 
-[username]
-style_user = 'bold #d3869b'
-style_root = 'bold #ea6962'
-format = '[$user](bold #d3869b)'
-show_always = true
+[directory]
+format = "[]($style)[[ ](bg:bright-black fg:blue)$path](bg:bright-black fg:white)[ ]($style)"
+read_only = ""
+read_only_style = 'bg: bright-black fg:blue'
+style = "bg:#11111f fg:bright-black"
+truncation_symbol = '.'
 
 [git_branch]
-style = 'bold #7daea3'
-#format = 'on [$git_branch](bold)'
-[package]
-disabled = true
-
-
+format = "[]($style)[[ ](bg:bright-black fg:red)$branch](bg:bright-black fg:white)[]($style)"
+style = "fg:bright-black"
