@@ -5,10 +5,8 @@ these are completely free to reproduce and use in your own repos.
 ## Packages
 Arch Linux:
 ```
-sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot dunst fish
+sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot dunst fish starship
 ```
-You will also need starship, from Starship's download page on their website.\
-Starship's website: [here](https://starship.rs)\
 You also need rofi power menu for the power button on Polybar.
 ## Screenshots:
 ### BSPWM, Picom and Polybar
