@@ -19,7 +19,7 @@ You also need rofi power menu for the power button on Polybar.
 
 <img src="assets/neovim.png">
 
-### Alacritty and Starship
+### Alacritty, Starship and ZSH
 
 <img src="assets/alacritty.png">
 
