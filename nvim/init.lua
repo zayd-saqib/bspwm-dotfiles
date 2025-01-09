@@ -97,9 +97,9 @@ require('lualine').setup {
     theme = {
 		normal = {
 			a = { fg = '#15161e', bg = "#7aa2f7" },
-			b = { fg = '#c0caf5', bg = '#0e0e1a' },
-			c = { fg = '#c0caf5', bg = '#0e0e1a' },
-			x = { fg = '#c0caf5', bg = '#0e0e1a' },
+			b = { fg = '#c0caf5', bg = '#0d0d18' },
+			c = { fg = '#c0caf5', bg = '#0d0d18' },
+			x = { fg = '#c0caf5', bg = '#0d0d18' },
 			y = { fg = '#20212d', bg = '#5a77b4' },
 		},
 		insert = {
@@ -107,8 +107,8 @@ require('lualine').setup {
 			y = { fg = '#20212d', bg = '#6d8f48' }
 		},
 		visual = {
-			a = { fg = '#15161e', bg = '#ff9e64' },
-			y = { fg = '#34261a', bg = '#a1613b' }
+			a = { fg = '#15161e', bg = '#a386d7' },
+			y = { fg = '#2a2137', bg = '#77639d' }
 		},
 	},
     component_separators = { left = '', right = ''},
