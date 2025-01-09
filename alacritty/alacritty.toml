@@ -59,7 +59,7 @@ style = "Regular"
 size = 10.5
 
 [terminal.shell]
-program = "/usr/bin/fish"
+program = "/usr/bin/zsh"
 
 [window.padding]
 x = 6
