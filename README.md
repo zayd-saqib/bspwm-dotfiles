@@ -7,7 +7,7 @@ Arch Linux:
 ```
 sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scrot dunst fish starship
 ```
-You also need rofi power menu for the power button on Polybar and Oh My Zsh for some quality-of-life improvements for the shell.
+You also need rofi power menu for the power button on Polybar.
 ## How do i use these dotfiles?
 Copy .zshrc into your home folder, then copy everything else except the "assets" folder into the .config folder ($HOME/.config)
 ## Screenshots:
