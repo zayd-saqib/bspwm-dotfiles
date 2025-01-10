@@ -13,9 +13,9 @@ Copy .zshrc into your home folder, then copy everything else except the "assets"
 ## Screenshots:
 ### BSPWM, Picom and Polybar
 
-<img src="assets/bsp.png">
+<img src="assets/bsp1.png">
 
-<img src="assets/bspwm.png">
+<img src="assets/bspwm1.png">
 
 ### Neovim
 
