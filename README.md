@@ -9,7 +9,34 @@ sudo pacman -S bspwm picom xclip alacritty dunst nitrogen sxhkd rofi polybar scr
 ```
 You also need rofi power menu for the power button on Polybar.
 ## How do i use these dotfiles?
-Copy .zshrc into your home folder, then copy everything else except the "assets" folder into the .config folder ($HOME/.config)
+First, if you have any of these folders in your .config folder at $HOME/.config, than you will need to delete them.\
+The following directories that must **NOT** be there:
+```
+alacritty
+bspwm
+dunst
+fish
+nitrogen
+nvim
+picom
+polybar
+rofi
+sxhkd
+```
+Then you're ready for the next step. Then,\
+Clone this repo with this command:
+```
+git clone https://github.com/linux-rooster/bspwm-dotfiles.git
+```
+Then `cd` into the directory:
+```
+cd bspwm-dotfiles
+```
+Then copy the folders with this commmand:
+```
+cp -r alacritty bspwm dunst fish nitrogen nvim picom polybar rofi sxhkd
+```
+Now all theese dotfiles are installed on your system.
 ## Screenshots:
 ### BSPWM, Picom and Polybar
 
@@ -18,6 +45,7 @@ Copy .zshrc into your home folder, then copy everything else except the "assets"
 <img src="assets/bspwm1.png">
 
 ### Neovim
+You will need to install packer.nvim from their installation guide, then once you've gotten the init.lua, run :PackerSync.\
 
 <img src="assets/neovim.png">
 
