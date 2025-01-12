@@ -1,8 +1,8 @@
 * {
-    bg0: #11111f;
-    bg1: #131324;
-    grey0: #2c314a;
-    fg0: #c0caf5;
+    bg0: #15111f;
+    bg1: #1a1324;
+    grey0: #2d314a;
+    fg0: #c2caf5;
 	font: "JetBrainsMonoNL Nerd Font 10";
 	display-drun:               " ";
 
@@ -10,7 +10,7 @@
     red: #f7768e;
     orange: #ff9e64;
     green: #9ece6a;
-    bgStatusline3: #bb9af7;
+    bgStatusline3: #bd9af7;
 
     background-color: @bg0;
 }
