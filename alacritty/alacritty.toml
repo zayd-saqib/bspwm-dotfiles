@@ -12,7 +12,7 @@
 general.live_config_reload = true
 
 [colors.primary]
-background = '#11111f'
+background = '#14111f'
 foreground = '#c0caf5'
 
 #[colors.cursor]
