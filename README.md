@@ -59,4 +59,4 @@ You will need to install packer.nvim from their installation guide, then once yo
 
 ### Rofi
 
-<img src="assets/rofi.png">
+<img src="assets/rofi0.png">
