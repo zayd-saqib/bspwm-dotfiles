@@ -53,7 +53,7 @@ rm -f config.def.h
 Now, get the "config.h" file from MY dotfiles repo and put it in the st directory.
 
 ```
-cp /path/to/the/cloned/repo/st/config.h st
+cp /path/to/the/cloned/repo/st/config.h . # dot means the current working directory, which is the st folder.
 ```
 
 Next, build the program.
