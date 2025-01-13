@@ -106,9 +106,9 @@ You will need to install packer.nvim from their installation guide, then once yo
 
 <img src="assets/neovim.png">
 
-### Alacritty, Starship and fish
+### ST, Starship and fish
 
-<img src="assets/aio1.png">
+<img src="assets/st.png">
 
 ### Dunst
 
