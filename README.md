@@ -91,7 +91,13 @@ Now, just do a clean install of st again.
 sudo make clean install
 ```
 
-And you're done!
+And you're done!\
+Keep in mind that to launch st with your desired shell you need to launch st with the -e flag.
+So, to use the fish shell, execute st with this flag.
+
+```
+st -e fish # -e sets the shell then the next word is the shell name
+```
 
 
 ## Screenshots:
