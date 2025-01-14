@@ -3,20 +3,32 @@
 add_newline = true
 
 # Use custom format:
-format='''
-[$username]()[$directory]()[$character]()
+format = '''
+[╭───── ](purple)[$username]()[$hostname]()[$directory]()
+[╰─ ](purple)[$character]()
 '''
 
-# Prompt symbols 
+[username]
+show_always = true
+disabled = false
+style_user = "bg:bg fg:blue"
+style_root = "bg:bg fg:blue"
+format = "[\\[]() [$user](bg:bg fg:blue)[@](bg:bg fg:fg)"
+
 [character]
-success_symbol = "[❭](bold green)"
-error_symbol = "[❭](bold red)"
+success_symbol = "[\\$](green)"
+error_symbol = "[\\$](red)"
+
+[hostname]
+ssh_only = false
+ssh_symbol = ''
+trim_at = ''
+disabled = false
+style = "yellow"
+format = "[$hostname]($style)"
 
 [directory]
-format = "[]($style)[[ ](bg:#29294f fg:blue)$path](bg:#29294f fg:white)[ ]($style)"
-style = "bg:bg fg:#29294f"
-truncation_symbol = '../'
-
-[git_branch]
-format = "[]($style)[[ ](bg:bright-black fg:red)$branch](bg:bright-black fg:white)[]($style)"
-style = "fg:bright-black"
+style = 'purple'
+read_only = ''
+truncation_symbol = ''
+format = " [$path]($style) [\\]]()"
