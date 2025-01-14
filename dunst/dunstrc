@@ -1,13 +1,13 @@
 [global]
-frame_color = "#bb9af7"
+frame_color = "#7ba2f7"
 separator_color= frame
-font = JetBrains Mono NL 14
-origin = top-left
+font = Iosevka Nerd Font 14
+origin = top-right
 offset = (10, 37)
 width = (100, 400)
 height = (50, 500)
 progress_bar = true
-timeout = 5
+timeout = 4
 frame_width = 2
 
 progress_bar_height = 10
@@ -18,14 +18,14 @@ progress_bar_min_width = 150
 
 
 [urgency_low]
-background = "#11111f"
-foreground = "#c0caf5"
+background = "#12111f"
+foreground = "#c5caf5"
 
 [urgency_normal]
-background = "#11111f"
-foreground = "#c0caf5"
+background = "#12111f"
+foreground = "#c5caf5"
 
 [urgency_critical]
-background = "#11111f"
-foreground = "#c0caf5"
-frame_color = "#f7768e"
+background = "#12111f"
+foreground = "#c5caf5"
+frame_color = "#f8768e"
