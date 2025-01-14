@@ -8,6 +8,7 @@ Arch Linux:
 sudo pacman -S bspwm picom xclip dunst nitrogen sxhkd rofi polybar scrot dunst fish starship
 ```
 You also need rofi power menu for the power button on Polybar.
+The dunst config uses Iosevka nerd font and everything else uses JetBrains Mono Nerd Font, so install those or change the font in the config files
 ## How do i use these dotfiles?
 First, if you have any of these folders in your .config folder at $HOME/.config, than you will need to delete them.\
 The following directories that must **NOT** be there:
