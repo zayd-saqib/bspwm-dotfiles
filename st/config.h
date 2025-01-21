@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=19:size=19:antialias=true:autohint=true";
-static int borderpx = 17;
+static int borderpx = 21;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -74,7 +74,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "xterm-256color";
+char *termname = "st-256color";
 
 /*
  * spaces per tab
@@ -96,32 +96,32 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#15161e", // black
-	"#f7768e", // red
-	"#9ece6a", // green
-	"#e0af68", // yellow
-	"#7aa2f7", // blue
-	"#bb9af7", // magenta
-	"#7dcfff", // cyan
-	"#c0caf5", // grey
+	"#17111f", // black
+	"#ec6f92", // red
+	"#4f8fb0", // green
+	"#f7c177", // yellow
+	"#a4a2f0", // blue
+	"#c5a7e7", // magenta
+	"#9dcfd8", // cyan
+	"#c2caf5", // grey
 
 	/* 8 bright colors */
-	"#15161e", // black
-	"#f7768e", // red
-	"#9ece6a", // green
-	"#e0af68", // yellow
-	"#7aa2f7", // blue
-	"#bb9af7", // magenta
-	"#7dcfff", // cyan
-	"#c0caf5", // grey
-
+	"#17111f", // black
+	"#ec6f92", // red
+	"#4f8fb0", // green
+	"#f7c177", // yellow
+	"#a4a2f0", // blue
+	"#c5a7e7", // magenta
+	"#9dcfd8", // cyan
+	"#c2caf5", // grey
+	
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
+	"#b7a9e0", /* normal cursor color */
+	"#c0caf5", /* reversed cursor color */
 	"#c0caf5", /* default foreground colour */
-	"#15111f", /* default background colour */
+	"#181120", /* default background colour */
 };
 
 
