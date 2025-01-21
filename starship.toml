@@ -1,34 +1,31 @@
-"$schema" = 'https://starship.rs/config-schema.json'
-
-add_newline = true
-
-# Use custom format:
-format = '''
-[╭───── ](purple)[$username]()[$hostname]()[$directory]()
-[╰─ ](purple)[$character]()
-'''
-
-[username]
-show_always = true
-disabled = false
-style_user = "bg:bg fg:blue"
-style_root = "bg:bg fg:blue"
-format = "[\\[]() [$user](bg:bg fg:blue)[@](bg:bg fg:fg)"
-
-[character]
-success_symbol = "[\\$](green)"
-error_symbol = "[\\$](red)"
-
-[hostname]
-ssh_only = false
-ssh_symbol = ''
-trim_at = ''
-disabled = false
-style = "yellow"
-format = "[$hostname]($style)"
+format = """
+[](fg:#372951 bg:bg)\
+$directory\
+[](fg:#372951 bg:#906bba)\
+$username\
+[ ](fg:#906bba bg:bg)\
+"""
+# [](fg:#2f2446 bg:#394260)\
+# 
 
 [directory]
-style = 'purple'
-read_only = ''
-truncation_symbol = ''
-format = " [$path]($style) [\\]]()"
+style = "fg:#c1caf5 bg:#372951"
+format = "[](bg:#302446 fg:cyan)[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[character]
+success_symbol = "[ \\$](green)"
+error_symbol = "[ \\$](red)"
+
+[username]
+style_user = "fg:fg bg:#8262a7"
+style_root = "fg:fg bg:#8262a7"
+show_always = true
+format = "[  ](fg:black bg:#906bba)[$user ](fg:black bg:#906bba)"
