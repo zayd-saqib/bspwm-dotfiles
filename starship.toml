@@ -14,12 +14,6 @@ format = "[](bg:#302446 fg:cyan)[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
-[directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = " "
-"Pictures" = " "
-
 [character]
 success_symbol = "[ \\$](green)"
 error_symbol = "[ \\$](red)"
