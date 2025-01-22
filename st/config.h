@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=19:size=19:antialias=true:autohint=true";
+static char *font = "JetBrainsMonoNL Nerd Font:size=14:antialias=true:autohint=true";
 static int borderpx = 21;
 
 /*
@@ -96,21 +96,21 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#17111f", // black
+	"#18111f", // black
 	"#ec6f92", // red
 	"#4f8fb0", // green
 	"#f7c177", // yellow
-	"#a4a2f0", // blue
+	"#aea7fa", // blue
 	"#c5a7e7", // magenta
 	"#9dcfd8", // cyan
 	"#c2caf5", // grey
 
 	/* 8 bright colors */
-	"#17111f", // black
+	"#18111f", // black
 	"#ec6f92", // red
 	"#4f8fb0", // green
 	"#f7c177", // yellow
-	"#a4a2f0", // blue
+	"#aea7fa", // blue
 	"#c5a7e7", // magenta
 	"#9dcfd8", // cyan
 	"#c2caf5", // grey
@@ -121,7 +121,7 @@ static const char *colorname[] = {
 	"#b7a9e0", /* normal cursor color */
 	"#c0caf5", /* reversed cursor color */
 	"#c0caf5", /* default foreground colour */
-	"#181120", /* default background colour */
+	"#150e1f", /* default background colour #171121 */
 };
 
 
