@@ -119,7 +119,7 @@ You will need to install packer.nvim from their installation guide, then once yo
 
 ### Dunst
 
-<img src="assets/dunst1.png">
+<img src="assets/dunst.png">
 
 ### Rofi
 
