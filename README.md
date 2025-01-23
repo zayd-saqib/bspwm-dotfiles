@@ -115,7 +115,7 @@ You will need to install packer.nvim from their installation guide, then once yo
 
 ### ST, Starship and fish
 
-<img src="assets/st1.png">
+<img src="assets/st.png">
 
 ### Dunst
 
