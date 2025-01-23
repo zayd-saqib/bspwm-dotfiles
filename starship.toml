@@ -1,18 +1,22 @@
 format = """
-[](fg:#281d3a bg:bg)\
-[   ](bg:#261c37 fg:#b58fe0)\
-[](fg:#281d3a bg:#3a2a53)\
+[](fg:#2e2040 bg:bg)\
+[   ](bg:#2e2040 fg:#bc91eb)\
+[](fg:#2e2040 bg:#3c2b55)\
 $directory\
-[](fg:#3a2a53 bg:#8861b4)\
+[](fg:#3c2b55 bg:#8961b4)\
 $username\
-[ ](fg:#8861b4 bg:bg)\
+[ ](fg:#8961b4 bg:bg)\
+"""
+
+right_format = """
+$git_branch\
 """
 # [](fg:#2f2446 bg:#394260)\
 # [](fg:#382951 bg:bg)\
 #  
 
 [directory]
-style = "fg:#c1caf5 bg:#3a2a53"
+style = "fg:#d9baf6 bg:#3c2b55"
 format = "[](bg:#382951 fg:cyan)[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -25,9 +29,7 @@ error_symbol = "[ ❭](red)"
 #style_user = "fg:fg bg:#8262a7"
 #style_root = "fg:fg bg:#8262a7"
 show_always = true
-format = "[  ](fg:black bg:#8861b4)[$user ](fg:black bg:#8861b4)"
+format = "[  ](fg:black bg:#8961b4)[$user ](fg:black bg:#8961b4)"
 
-[time]
-format = "[ ](fg:black bg:#7c7abb)[$time ](fg:black bg:#7c7abb)"
-disabled = false
-use_12hr = true
+[git_branch]
+format = "[](fg:#605292)[ $branch ](fg:#605292)"
