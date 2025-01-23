@@ -1,7 +1,7 @@
 format = """
-[](fg:#2e2040 bg:bg)\
-[   ](bg:#2e2040 fg:#bc91eb)\
-[](fg:#2e2040 bg:#3c2b55)\
+[](fg:#281c41 bg:bg)\
+[   ](bg:#281c41 fg:#bc91eb)\
+[](fg:#281c41 bg:#3c2b55)\
 $directory\
 [](fg:#3c2b55 bg:#8961b4)\
 $username\
@@ -30,6 +30,11 @@ error_symbol = "[ ❭](red)"
 #style_root = "fg:fg bg:#8262a7"
 show_always = true
 format = "[  ](fg:black bg:#8961b4)[$user ](fg:black bg:#8961b4)"
+
+[time]
+format = "[ ](fg:black bg:#7c7abb)[$time ](fg:black bg:#7c7abb)"
+disabled = false
+use_12hr = true
 
 [git_branch]
 format = "[](fg:#605292)[ $branch ](fg:#605292)"
