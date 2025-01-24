@@ -111,7 +111,7 @@ st -e fish # -e sets the shell then the next word is the shell name
 ### Neovim
 You will need to install packer.nvim from their installation guide, then once you've gotten the init.lua, run :PackerSync.
 
-<img src="assets/neovim1.png">
+<img src="assets/neovim.png">
 
 ### ST, Starship and fish
 
