@@ -58,10 +58,10 @@ packer.startup(function(use)
     }
 end)
 
--- set linking files
-require('plugins.general_settings')
-require('plugins.colorscheme')
-require('plugins.highlights')
-require('plugins.lualine')
-require('plugins.noice')
-require('plugins.treesitter')
+-- set linking files that link back to the parent file.
+require('configuration.general_settings')
+require('configuration.colorscheme')
+require('configuration.highlights')
+require('configuration.lualine')
+require('configuration.noice')
+require('configuration.treesitter')
