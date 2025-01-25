@@ -1,6 +1,6 @@
 # BSPWM DOTFILES
 These are dotfiles for the bspwm window manager, along with other things.\
-all of these are themed with my modified version of tokyo night color scheme.\
+all of these are themed with my modified version of the rose pine color scheme.\
 these are completely free to reproduce and use in your own repos.
 ## Packages
 Arch Linux:
@@ -123,4 +123,4 @@ You will need to install packer.nvim from their installation guide, then once yo
 
 ### Rofi
 
-<img src="assets/rofi1.png">
+<img src="assets/rofi.png">
