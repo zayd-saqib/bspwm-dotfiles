@@ -34,9 +34,9 @@ cd bspwm-dotfiles
 ```
 Then copy the folders with this commmand:
 ```
-cp -r alacritty bspwm dunst fish nitrogen nvim picom polybar rofi sxhkd
+cp -r bspwm dunst fish nitrogen nvim picom polybar rofi sxhkd
 ```
-Now all theese dotfiles are installed on your system.\
+Now all these dotfiles are installed on your system.\
 But there's still the terminal (st) left.\
 Setup is a bit more complex.\
 First, clone ST's repo on your machine.
